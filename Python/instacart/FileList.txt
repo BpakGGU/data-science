@@ -1,0 +1,42 @@
+Files located here: https://drive.google.com/drive/u/0/folders/1c3UKVSIueBsQSGCqU74M-bpGpTtB06X-
+
+Too large for github
+
+'test_priordata.csv' :
+- The list of 'prior' sales for user in test set. 
+- Joined on all tables (aisles, departments, products). Contains Cluster values
+
+
+'testprior_transformed.csv' :
+- Run transformation on list of 'prior' sales for users in test set
+- this file was used to generate clusters
+
+
+'priordata_clean.csv' :
+- list of 'prior' sales for users in train set
+
+
+'user_and_cluster.csv' :
+-contains mapping of userid to cluster they are in
+
+
+'cluster0_reorderedtrue.csv' :
+- for Cluster 0 users, contains only items that have been repurchased at least once
+
+
+'cluster1_reorderedtrue.csv' :
+- for Cluster 1 users, contains only items that have been repurchased at least once
+
+
+'cluster2_reorderedtrue.csv' :
+- for Cluster 2 users, contains only items that have been repurchased at least once
+
+'traincluster1_finalmerged' :
+- contains train data that will be used to benchmark our classifier
+
+
+'cluster3_reorderedtrue.csv' :
+- for Cluster 3 users, contains only items that have been repurchased at least once
+
+'cluster0_finalmerged.csv' : (same description for cluster#_finalmerged.csv files)
+- Each cluster has repurchased items only. Data was merged with new set of calculations used for classification
